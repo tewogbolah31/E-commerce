@@ -1,0 +1,26 @@
+.details {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+.box{
+    border: 2px solid black;
+    padding: 3rem;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.box img{
+    width: 5rem;
+    height: 3rem;
+    text-align: center;
+    object-fit: cover;
+}
+
+.box p{
+    font-weight: 400;
+    text-align: center;
+}

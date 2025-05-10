@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+body{
+    font-weight: 300;
+    line-height: 1.6;
+    font-family:  sans-serif;
+}
+html{
+    font-size: 100%;
+}
+
+@media (max-width: 900px) {
+    html{
+        font-size: 70%;
+    }
+}
+
+
+@media (max-width: 900px) {
+    html{
+        font-size: 70%;
+    }
+}
+

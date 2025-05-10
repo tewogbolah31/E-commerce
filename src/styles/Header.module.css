@@ -1,0 +1,62 @@
+
+
+.header__box{
+    background-color: rgb(231, 231, 231);
+}
+
+
+.header{
+    display: flex;
+    padding: 5rem 1.5rem;
+    padding-top: 8rem;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.header__1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    width: 48%;
+}
+
+.header__Img{
+   width: 48%;
+}
+
+.header__1 h4{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #474747;
+}
+
+.header__1 h2{
+    font-size: 4rem;
+}
+
+
+.header__1 p{
+color: #474747;
+margin-top: 1rem;
+font-size: 1rem;
+font-weight: 400;
+width: 80%;
+}
+
+.header__1 button{
+    width: 8rem;
+    padding: 0.7rem 0;
+    margin-top: 3rem;
+    background-color: #ff7004;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.last{
+    display: inline-block;
+}

@@ -1,0 +1,57 @@
+.h3{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.p{
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    font-weight: 400;
+    color: rgb(71, 71, 71);
+}
+
+.box{
+    margin-top: 2rem;
+}
+
+.select{
+    display: flex;
+   margin: 2rem 30%;
+   justify-content: space-between;
+}
+
+.links{
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    font-weight: 500;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.links:hover{
+    color: #ff7004
+}
+
+.active{
+    color: #ff7004;
+}
+
+.product{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+    max-width: 1024px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+    .select{
+       margin: 2rem 30%;
+       justify-content: space-between;
+    }
+  }
