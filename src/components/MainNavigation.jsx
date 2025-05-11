@@ -1,13 +1,15 @@
 import { Search, User, ShoppingBag, ChevronDown } from "lucide-react";
 import classes from "../styles/MainNavigation.module.css";
+import logo from '../assets/fursLogo.png';
 
 export default function MainNavigation() {
   return (
     <>
       <div className={classes.navigation}>
         <img
-          src="../../public/fursLogo.png"
+          src={logo}
           className={classes.navigation__logoImg}
+          alt="logo"
         />
         <div className={classes.IconBox}>
           <Search className={classes.navigation__Icon} />

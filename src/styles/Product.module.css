@@ -5,9 +5,13 @@
 
 .product {
   position: relative;
-  flex: 0 0 21.5%;
-  margin: 2rem 1rem;
+  flex: 0 0 23%;
+  margin: 2rem 0;
   cursor: pointer;
+}
+
+.product:hover .cart{
+  display: flex;
 }
 
 .heart {
@@ -29,11 +33,11 @@
 .cart {
   position: absolute;
   bottom: 20%;
-  right: 13%;
+  right: 20%;
   padding: 0.6rem 2rem;
   background-color: #ffffff;
   color: #333333;
-  display: flex;
+  display: none;
   align-items: center;
   border-radius: 1px;
 }
@@ -53,6 +57,11 @@
   margin-left: 0.3rem;
   font-size: 1rem;
   font-weight: 400;
+  transition: 0.3s;
+}
+
+.icon{
+  transition: 0.3s;
 }
 
 .price {

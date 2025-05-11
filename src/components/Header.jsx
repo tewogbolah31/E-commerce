@@ -1,5 +1,7 @@
 import classes from "../styles/Header.module.css";
 
+import headerImg from '../assets/furnitureHeaderImg.png';
+
 export default function Header() {
   return (
     <header className={classes.header__box}>
@@ -14,8 +16,9 @@ export default function Header() {
           <button>Shop Now</button>
         </div>
         <img
-          src="../../public/furnitureHeaderImg.png"
+          src={headerImg}
           className={classes.header__Img}
+          alt="headerImage"
         />
       </div>
     </header>

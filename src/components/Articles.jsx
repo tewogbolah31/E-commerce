@@ -1,12 +1,16 @@
 import classes from "../styles/Articles.module.css";
 
+import banner1 from '../assets/images_banner_1.jpg';
+import banner2 from '../assets/images_banner_2.jpg';
+
+
 export default function Articles() {
   return (
     <section>
       <div className={classes.article}>
         <figure className={classes.figure}>
           <img
-            src="../../public/images_banner_1.jpg"
+            src={banner1}
             alt="banner1"
             className={classes.img}
           />
@@ -17,8 +21,8 @@ export default function Articles() {
         </figure>
         <figure className={classes.figure}>
           <img
-            src="../../public/images_banner_2.jpg"
-            alt="banner1"
+            src={banner2}
+            alt="banner2"
             className={classes.img}
           />
           <div className={classes.div2}>

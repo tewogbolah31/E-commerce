@@ -1,5 +1,4 @@
 
-
 .header__box{
     background-color: rgb(231, 231, 231);
 }
@@ -10,19 +9,19 @@
     padding: 5rem 1.5rem;
     padding-top: 8rem;
     justify-content: space-between;
-    max-width: 1024px;
-    margin: 0 auto;
+    margin: 0 2.5rem;
 }
 
 .header__1 {
     display: flex;
     flex-direction: column;
-    margin-top: 5rem;
-    width: 48%;
+    margin-top: 4rem;
+    width: 50%;
 }
 
 .header__Img{
-   width: 48%;
+   width: 45%;
+   height: 25rem;
 }
 
 .header__1 h4{

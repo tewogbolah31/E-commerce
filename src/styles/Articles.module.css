@@ -1,8 +1,7 @@
 .article{
-    max-width: 1024px;
     display: flex;
     justify-content: space-between;
-    margin: 1rem auto;
+    margin: 1rem 2rem;
     padding: 0 1rem;
 }
 

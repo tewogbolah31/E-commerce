@@ -9,7 +9,7 @@ export default function Product({ title, cancelled, price, img }) {
       <img className={classes.img} src={img} />
       <Heart className={classes.heart} size={18} />
       <div className={classes.cart}>
-        <ShoppingCart size={18} />
+        <ShoppingCart size={18} className={classes.icon}/>
         <button className={classes.btn}>Add to cart</button>
       </div>
       <div className={classes.box}>
