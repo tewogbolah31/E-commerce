@@ -1,0 +1,57 @@
+.img {
+    height: 7rem;
+}
+
+
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+border: 1px solid rgb(235, 235, 235);
+  
+  border-top: none;
+}
+
+.one {
+    margin-left: 2rem;
+    width: 10%;
+}
+
+.two{
+    width: 20%;
+}
+
+.three {
+    width: 10%;
+}
+
+.four{
+    width: 15%;
+}
+
+.five {
+    width: 10%;
+}
+
+.six{
+    width: 10%;
+}
+
+.adjust{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.cancel{
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+
+.cancel:hover{
+    color: #ff7004;
+}

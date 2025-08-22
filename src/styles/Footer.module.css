@@ -76,6 +76,10 @@
     font-size: 0.9rem;
 }
 
+.div2 a:hover{
+    transform: translateX(-30);
+}
+
 .div3 a{
     text-decoration: none;
     color: white;

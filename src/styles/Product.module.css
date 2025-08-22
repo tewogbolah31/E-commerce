@@ -1,6 +1,7 @@
 .img {
   height: 20rem;
   width: 100%;
+  transition: 0.3s ease-in;
 }
 
 .product {
@@ -10,11 +11,8 @@
   cursor: pointer;
 }
 
-.product:hover .cart{
-  display: flex;
-}
-
 .heart {
+  cursor: pointer;
   position: absolute;
   top: 6%;
   right: 8%;
@@ -23,6 +21,7 @@
   background-color: #ffffff;
   box-sizing: content-box;
   font-size: 1px;
+  transition: 0.2s ease-in;
 }
 
 .heart:hover {
@@ -37,9 +36,10 @@
   padding: 0.6rem 2rem;
   background-color: #ffffff;
   color: #333333;
-  display: none;
   align-items: center;
   border-radius: 1px;
+  transition: 0.3s ease-in;
+  cursor: pointer;
 }
 
 .cart:hover {
@@ -58,10 +58,12 @@
   font-size: 1rem;
   font-weight: 400;
   transition: 0.3s;
+  cursor: pointer;
 }
 
-.icon{
+.icon {
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .price {
@@ -71,16 +73,16 @@
   color: #999999;
   font-family: inherit;
   font-weight: 400;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
   line-height: 0px;
 }
 
-.link{
-    text-decoration: none;
-    font-size: 1.1rem;
-    color: black;
-    font-weight: 400;
-  }
+.link {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 400;
+}
 
 .amount {
   display: inline-block;

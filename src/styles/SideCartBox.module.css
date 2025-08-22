@@ -1,0 +1,95 @@
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.box h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.closebtn {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  cursor: pointer;
+}
+
+.closebtn span {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 2px;
+  background: #ff7004;
+  transition: transform 0.3s ease;
+}
+
+/* Cross shape: One at +45°, one at -45° */
+.closebtn span:first-child {
+  transform: rotate(45deg);
+}
+.closebtn span:last-child {
+  transform: rotate(-45deg);
+}
+
+/* Hover: rotate both to vertical line (90° and 90° cancel out) */
+.closebtn:hover span:first-child {
+  transform: rotate(0deg);
+}
+.closebtn:hover span:last-child {
+  transform: rotate(180deg);
+}
+
+.list {
+  height: 74%;
+  list-style: none;
+  outline: none;
+}
+
+.scroll {
+  overflow-y: scroll;
+}
+
+.buttom {
+  display: flex;
+  padding: 0.5rem 1rem;
+  background-color: #ff7004;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  border-radius: 3px;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+}
+
+.buttom:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(47, 51, 58);
+}
+
+.buttom p {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.buttom button {
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ff7004;
+  background-color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 2px;
+}
+
+.center {
+  text-align: center;
+}

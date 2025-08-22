@@ -1,0 +1,105 @@
+.box {
+  background-color: rgb(244, 245, 248);
+  padding: 4rem 0;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.box h4 {
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin-bottom: 0.3rem;
+}
+
+.box p {
+  font-weight: 350;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+}
+
+.main {
+  width: 45%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 3rem 0;
+  padding-top: 2rem;
+}
+
+.div{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn {
+  width: 90%;
+  color: white;
+  height: 3rem;
+  background-color: #ff7004;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: ease-in 0.2s;
+}
+
+.btn:hover {
+  background-color: rgb(47, 51, 58);
+}
+
+.flex {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.btn2 {
+  width: 45%;
+  color: white;
+  height: 3rem;
+  background-color: rgb(47, 51, 58);
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: ease-in 0.2s;
+}
+
+.btn2:hover {
+  background-color: #ebebeb;
+  color: black;
+}
+
+.btn3 {
+  width: 45%;
+  color: black;
+  height: 3rem;
+  background-color: #ebebeb;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: ease-in 0.2s;
+}
+
+.btn3:hover {
+  background-color: rgb(47, 51, 58);
+  color: white;
+}

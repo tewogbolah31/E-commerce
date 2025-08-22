@@ -1,8 +1,11 @@
 import { Search, User, ShoppingBag, ChevronDown } from "lucide-react";
 import classes from "../styles/MainNavigation.module.css";
 import logo from '../assets/fursLogo.png';
+import { useContext } from "react";
+import { CartContext } from "../store/CartContext";
 
 export default function MainNavigation() {
+  const {openCart,totalItems} = useContext(CartContext)
   return (
     <>
       <div className={classes.navigation}>
@@ -14,9 +17,9 @@ export default function MainNavigation() {
         <div className={classes.IconBox}>
           <Search className={classes.navigation__Icon} />
           <User className={classes.navigation__Icon} />
-          <div className={classes.spanBox}>
+          <div className={classes.spanBox} onClick={openCart}>
             <ShoppingBag className={classes.shoppingbag} />
-            <span className={classes.Icon__span}>0</span>
+            <span className={classes.Icon__span}>{totalItems}</span>
           </div>
         </div>
       </div>

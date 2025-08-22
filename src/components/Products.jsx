@@ -33,6 +33,7 @@ export default function Products() {
         {HOMEPAGE__PRODUCTS.map((item) => (
           <Product
             key={item.id}
+            id={item.id}
             cancelled={item.Cancelled}
             price={item.price}
             title={item.title}

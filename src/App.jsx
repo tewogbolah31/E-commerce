@@ -1,18 +1,25 @@
-import Articles from "./components/Articles";
-import Details from "./components/Details";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import MainNavigation from "./components/MainNavigation";
-import Products from "./components/Products";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
+import Homepage from "./pages/Homepage";
+import RootLayout from "./pages/RootLayout";
 
-export default function App () {
-  return <>
-    <MainNavigation />
-    <Header />
-    <Details />
-    <Products />
-    <Articles />
-    <Footer />
-  </>
+import Cartpage from "./pages/Cartpage";
+import LoginPage from "./pages/LoginPage";
+import SignupPage from "./pages/SignupPage";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <RootLayout />,
+    children: [
+      { index: true, element: <Homepage /> },
+      { path: "/cart", element: <Cartpage /> },
+      { path: "/login", element: <LoginPage /> },
+      { path: "/signup", element: <SignupPage /> },
+    ],
+  },
+]);
+
+export default function App() {
+  return <RouterProvider router={router} />;
 }
